@@ -9,6 +9,7 @@ Instructions:
 There will be two parts of the software. 
 1.	Data Entry Application
 2.	Scoreboard 
+
 Data Entry Application
 New App Start
 User will start the data entry app, he will be asked if it is a new match or not. If it is a new match, details like 2 teams, venue, number of overs will be entered and a new match starts. 
@@ -23,7 +24,9 @@ The score board app will be shown for a given match.
 Scoreboard details
 When user starts the score-board screen, he will be asked to select a match that is going on right now. The scoreboard will be running in a loop and every few seconds it will be reading information from the file. (The files saved in ball-by-ball-data-entry screen). It is important that you read and update the scoreboard after every few seconds. 
 Scoreboard will show full match details including current score, balls played, current overs played, which player scored what data, what player is still playing with what score, which bowler balled how many overs, score he gave, maiden overs bowled and wickets taken.
+
 Other requirements
+
 Object Orientation
 The applications that you are building should be object oriented. You should have proper classes to make a proper application architecture. There will be some classes that are related to the screens, like: 
 •	New Match Screen
@@ -37,4 +40,3 @@ You will also have data logic classes including classes like:
 •	Player
 •	Batsman
 •	Bowler
-
